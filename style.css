@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: white;
+    padding: 4vh 0px;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 10vh;
+}
+
+ul {
+    margin: auto;
+    text-align: center;
+    font: 1em sans-serif;
+    
+}
+
+ul li  {
+    display: inline;
+    margin: 0px 3vh;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+ul li a:hover {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-shadow: 4px 4px 20px gray;
+}
+
+#logo{
+    height: 55vh;
+    width: 50vw;
+    margin: 5vh auto;
+    display: block;
+}
+
+#ownInfos{
+    margin-top: -40vh;
+}
+
+#ownInfos h1  {
+    text-align: center;
+    font-size: 5em;
+    color: orange;
+    /* text-shadow: 2px 2px 1px black; */
+}
+#ownInfos p {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline 1px;
+}
+
+#filters{
+    margin: 20vh auto;
+    text-align: center;
+    padding: 0px 15vw;
+}
+
+#filters button {
+    background-color: white;
+    border: rgb(187, 186, 186) 1px solid;
+    padding: 5px 10px;
+    border-radius: 25px;
+    margin: 5px 3px;
+    font-size: 1em;
+    color: gray;
+    
+}
+
+#filters button:hover {
+    box-shadow: 1px 1px  4px #888888;
+ }
+
+#filters button:first-child{
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+}
